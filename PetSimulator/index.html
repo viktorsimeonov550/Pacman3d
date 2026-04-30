@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacman 3D</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-ui">
+        <div class="title">PACMAN 3D</div>
+
+        <div class="hud-row">
+            <div class="hud-box">
+                <span class="hud-label">SCORE</span>
+                <span id="score" class="hud-value">0</span>
+            </div>
+
+            <div class="hud-box">
+                <span class="hud-label">PELLETS</span>
+                <span id="pellets" class="hud-value">0/0</span>
+            </div>
+
+            <div class="hud-box">
+                <span class="hud-label">LIVES</span>
+                <span id="lives" class="hud-value">3</span>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="gameCanvas" tabindex="0"></canvas>
+
+    <div class="controls">
+    W / S move &nbsp;&nbsp; A / D turn &nbsp;&nbsp; P pause &nbsp;&nbsp; R restart
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
